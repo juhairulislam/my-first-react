@@ -1,5 +1,6 @@
 
-import './App.css'
+import './App.css' 
+import ToDo from './todo' ;
 
 function App() {
 
@@ -7,14 +8,15 @@ function App() {
     <>
 
       <h1>React core concept</h1>
-      <Student></Student>
+      <ToDo task='Learn react'></ToDo>
+      {/* <Student></Student>
       <Student></Student>
       <Person></Person>
       <Developer name='Jolil' tech='Python'></Developer>
       <Developer name='Abdul' tech='js'></Developer>
       <Developer name='Azad' tech='C++'></Developer>
       <Player name='tamim' runs='5000'></Player>
-      <Salami event='Eid ul azha' amount='100'></Salami>
+      <Salami event='Eid ul azha' amount='100'></Salami> */}
      
      
     </>
