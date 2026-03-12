@@ -1,11 +1,25 @@
 
 import './App.css' 
 import ToDo from './todo' ;
+import Singer from './singer'
 
 function App() {
 
+  const singers = [
+    {id:1 , name: 'Ayub' , age: 47} , 
+    {id:2 , name: 'Tahsan' , age: 42} , 
+    {id:3 , name: 'Ridoy' , age: 32} , 
+
+  ]
+
   return (
     <>
+
+    {
+      singers.map(singer=> <Singer key={singer.id} singer={singer}></Singer>)
+    }
+
+    
 
       <h1>React core concept</h1>
       <ToDo task='Learn react' isDone={true}></ToDo>
