@@ -8,7 +8,8 @@ function App() {
     <>
 
       <h1>React core concept</h1>
-      <ToDo task='Learn react'></ToDo>
+      <ToDo task='Learn react' isDone={true}></ToDo>
+      <ToDo task='Learn js' isDone={false}></ToDo>
       {/* <Student></Student>
       <Student></Student>
       <Person></Person>
